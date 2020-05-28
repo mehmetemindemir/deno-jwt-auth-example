@@ -1,0 +1,25 @@
+### Send POST request with json body
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "username":"med",
+  "password":"med"
+}
+
+### Insert Article
+POST http://localhost:8000/article
+Content-Type: application/json
+
+{
+  "articleId": "articleId",
+  "articleTitle":"test",
+  "articleContent":"texttts  dfgdsljfgjsdlfg d fgsdjlfjskdfl"
+}
+
+### Authorization by token, part 2. Use token to authorize.
+GET http://localhost:8000/article
+Content-Type: application/json
+Authorization: Bearer 1212eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJtZWQiLCJleHAiOjE1OTA2MzM4NTc1NDd9.27zf9EXa1CSIqLYrqQrXJ6rNs-_2PaCB8O7vuH0nijQ
+
+###
