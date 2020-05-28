@@ -13,8 +13,6 @@
         * https://deno.land/x/dotenv/
       * [ ] MongoDB Driver
         * Latest deno_mongo does not support v1!!!
-      * [ ] File watcher  
-        * Couldnt get it working...
           * deno install --unstable --allow-read --allow-run -f https://deno.land/x/denon/denon.ts
   * [ ] POST /article
     * Create article
