@@ -2,18 +2,17 @@
 
 * [x] Install Deno
 * [x] Create a "Hello World"
-* [ ] Build a REST API article
-  * [ ] Setup API
+* [x] Build a REST API article
+  * [x] Setup API
     * Determine what to use for:
       * [x] Web Framework
           * https://oakserver.github.io/oak/
         * [ ] Logger
-        * [ ] CORS
-      * [ ] Environment Variables
+        * [x] CORS
+      * [x] Environment Variables
         * https://deno.land/x/dotenv/
-      * [ ] MongoDB Driver
+      * [x] MongoDB Driver
         * Latest deno_mongo does not support v1!!!
           * deno install --unstable --allow-read --allow-run -f https://deno.land/x/denon/denon.ts
-  * [ ] POST /article
-    * Create article
-  * [ ] GET /article
+  * [x] POST /article
+  * [x] GET /article
